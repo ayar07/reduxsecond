@@ -1,0 +1,39 @@
+.conteiner {
+    background-color: white;
+}
+
+.man {
+    border: 5px solid blue;
+    margin: 25px;
+    padding: 25px;
+    background-color: blue;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.secman {
+    margin: 25px;
+    padding: 25px;
+}
+
+.men {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wman {
+    display: flex;
+}
+
+.wmen {
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+button {
+    width: 10%;
+}
